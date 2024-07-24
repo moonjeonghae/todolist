@@ -26,18 +26,18 @@ function App() {
 
   const onInsert = useCallback(text => {
     const todo = {
-      id: nextid,
+      id: nextid.current,
       text,
       checked: false
     };
-
-    setTodos(todos.concat(todo));
+  
+    setTodos(prevTodos => prevTodos.concat(todo));
     nextid.current += 1;
-  }, [todos]);
-
+  }, []);
+  
   const onRemove = useCallback(id => {
-    setTodos(todos.filter(todo => todo.id !== id));
-  }, [todos]);
+    setTodos(prevTodos => prevTodos.filter(todo => todo.id !== id));
+  }, []);
 
   const onToggle = useCallback(id => {
     setTodos(
