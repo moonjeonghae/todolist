@@ -1,6 +1,8 @@
 .TodoTemplate {
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
     width: 512px;
-    margin: 2rem auto 0;
     border-radius: 10px;
     overflow: hidden;
     background-color: #fffce8;
