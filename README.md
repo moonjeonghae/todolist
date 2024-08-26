@@ -1,5 +1,5 @@
-# TO DO LIST
-![스크린샷 2024-07-24 164329](https://github.com/user-attachments/assets/c9e8ca71-c2d3-4287-9db2-0a7f9977a947)
+# 📝 TO DO LIST
+https://github.com/user-attachments/assets/f7b422af-3fb1-408c-8175-a23f0a2a69d5
 
 ## 📢 About
 📆 제작 기간 : 2024.07.21 ~ 2024.07.24 <br>
